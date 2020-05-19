@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #242238;
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font: 500;
+	color: #4DBADF;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: crimson;
+}
+
+p, h2{
+	color: #4FC7EC;
+	padding: 0 0 0 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+li{
+	padding: 0 0 0 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background: #242238;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.nav_links{
+	list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: crimson;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(79,199,236,1.00);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(79,199,236,0.8);
+}
+
+#container{
+	width: 100%;
+	background: #242238;
+	margin: 20px auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	font-family: 'Poppins', sans-serif;
+	height: 40px;
+	background: #4FC7EC;
+	color: #000000;
+	margin: 20px 0;
+	padding: 0 0 0 20px;
+}
+
+footer {
+	color: #242238;
+	display: flex;
+	background: #4FC7EC;
+}
