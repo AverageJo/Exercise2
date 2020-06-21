@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #000000;
+}
+
+center {
+	color: white;
+	text-decoration: none;
+	font-family: 'Cinzel', serif;
+}
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	font-size: 20px;
+	background: #292929;
+}
+
+.navbar{
+	justify-content: flex-end;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    position: relative;
+	width: 100%;
+}
+
+.box .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 50px;
+	background: #1E1E1E;
+}
+
+.box .btn:hover {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 50px;
+	background-color: mediumturquoise;
+	transition: 0.5s;
+}
+
+.box img {
+	width: 100%;
+	height: auto;
+}
+
+.btn a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: crimson;
+	text-decoration: none;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+}
+
+.DOWNLOAD {
+	height: inherit;
+	margin-bottom: 20px;
+	font-family: 'Cinzel', serif;
+}
+
+.sub-title {
+	height: 55px;
+	background: #621012;
+	color: white;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.text {
+	height: 500px;
+	margin-bottom: 20px;
+}
+
+.image1 {
+	height: 500px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+
+.image2 {
+	height: 500px;
+	display: block;
+	margin-right: 10px;
+	float: right;
+}
+
+.carousel slide {
+	position: fixed;
+}
+
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+	height: 60px;
+   background-color: black;
+   color: white;
+   text-align: center;
+	border-top: solid;
+	justify-content: center;
+}
+
+.footer2 {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+	border-top: solid;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.footer2 p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+	height: 50px;
+}
+
+.logo2 {
+	height: 30px;
+}
